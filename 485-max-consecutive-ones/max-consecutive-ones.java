@@ -9,7 +9,7 @@ class Solution {
                 if(count> max){
                     max=count;
                 }
-            }else if(arr[i]==0){
+            }else {
                 count=0;
             }
         }
